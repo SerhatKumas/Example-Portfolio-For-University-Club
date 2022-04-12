@@ -1,3 +1,7 @@
+body{
+  font-family: 'Vujahday Script', cursive;
+}
+
 .banner{
   background-image:url(../Images/Background-1.jpg);
   background-repeat: no-repeat;
@@ -20,4 +24,37 @@
 .devJob{
   font-family: 'Vujahday Script', cursive;
   color: #413f55;
+}
+.navigation{
+  background-color: #413f55;
+  border-radius: 30px;
+}
+
+.photo{
+  background-color: white;
+  height: 60vh;
+  border-radius: 30px;
+  background-image:url(../Images/serhatphoto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.resume{
+  height: 60vh;
+  color: white;
+  padding: 10vh;
+  border-radius: 30px;
+}
+
+.about{
+  background-color: #cbb09b;
+}
+
+.projects{
+  background-color:#73755f;
+}
+
+.skills{
+  background-color:#bdb5b2;
 }
