@@ -1,9 +1,13 @@
 body{
   font-family: 'Vujahday Script', cursive;
+  background-color: #f4eade;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 .banner{
-  background-image:url(../Images/Background-1.jpg);
+  background-image:url(../Images/bannerBackground.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -26,7 +30,7 @@ body{
   color: #413f55;
 }
 .navigation{
-  background-color: #413f55;
+  background-color: #222038;
   border-radius: 30px;
 }
 
@@ -34,27 +38,49 @@ body{
   background-color: white;
   height: 60vh;
   border-radius: 30px;
-  background-image:url(../Images/serhatphoto.jpg);
+  background-image:url(../Images/devPhoto.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
-.resume{
-  height: 60vh;
-  color: white;
-  padding: 10vh;
-  border-radius: 30px;
-}
-
-.about{
-  background-color: #cbb09b;
-}
-
-.projects{
-  background-color:#73755f;
+.aboutme{
+  background-color: #c7ac99;
 }
 
 .skills{
-  background-color:#bdb5b2;
+  background-color:#b0d5c3
+}
+
+.education{
+  background-color: #b3aaa8;
+}
+
+.contact{
+  height: 60vh;
+  background-image:url(../Images/contactMe.jpg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.fixed-footer {
+  text-align: center;
+  margin-top: auto;
+  color: #252d5c;
+  background-color: white;
+  height: auto;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bolder;
+  color: #252d5c;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #252d5c;
 }
