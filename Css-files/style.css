@@ -81,6 +81,10 @@ body {
 	background-size: 100% 100%;
 }
 
+.fontSizeXXlarge{
+font-size: xx-large;
+}
+
 .fixed-footer {
 	text-align: center;
 	margin-top: auto;
@@ -95,6 +99,15 @@ body {
 
 .navigation a {
 	font-size: 20px;
+}
+
+.btn-custom {
+    background-color: #252d5c;
+    border-color: pink; /*set the color you want here*/
+}
+
+.btn-custom:hover{
+	color: pink;
 }
 
 h1 {
