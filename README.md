@@ -1,4 +1,4 @@
-# serhatkumas.github.io
+# Example Portfolio Website Template For University Student Club
 
 I have volunteered to give course about web developing in University club. At the end of the semester, students asked to develop their own portfolio page. I created this project to set an example for them.
 ## Used By
